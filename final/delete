@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+sudo rm /var/www/html/memo/*.html
+
+sudo rm /var/www/html/memo/*.css

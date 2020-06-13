@@ -1,0 +1,73 @@
+#!/bin/bash
+
+echo "
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif+Caption');
+body {
+  font-family:"Open Sans", Roboto, sans-serif;
+  color: $colorcode;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  background-color: $colorcode;
+}
+
+main {
+	max-width: 65rem;
+	margin: 0 auto;
+}
+
+.background-needed {
+	background-color: rgba(254, 253, 255, 0.82);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5vh;
+}
+
+header {
+  color: #a9c8c8;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "PT Serif Caption", serif;
+  letter-spacing: 3px;
+}
+
+h1 {font-size: 98px;}
+h3 {font-size: 45px;}
+
+nav {text-align: center;}
+nav a {color: #d1e4f4;}
+nav ul li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #a35f23;
+}
+
+a:hover {
+  padding: 2px;
+  border: 2px dashed #3a3a3a;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 50rem;
+}
+
+.vid {text-align: center;}
+
+.dif {color: #42cbf4;}
+
+footer {padding-top: 10%;}
+footer h6 {
+  line-height: 1;
+  text-align: center;
+  color: #fafafa;
+}"

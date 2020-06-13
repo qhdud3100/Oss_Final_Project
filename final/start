@@ -1,0 +1,65 @@
+#!/bin/bash
+
+echo "보내는 사람 이름:"
+read who
+
+echo "받는 사람 이름:"
+read whom
+
+echo "보낼 내용:"
+read text1
+read text2
+read text3
+read text4
+read text5
+
+echo "메일 제목: "
+read filename
+
+echo "영상 소스코드: "
+read sourcecode
+
+echo "편지 색깔(red, blue, pink, black, green)"
+read color
+
+if [ "$color" == "red" ]; then 
+	colorcode=#eb533f
+elif [ "$color" == "blue" ]; then 
+	colorcode=#0101DF
+elif [ "$color" == "pink" ]; then 
+	colorcode=#FA58F4
+elif [ "$color" == "black" ]; then 
+	colorcode=#071019
+elif [ "$color" == "green" ]; then
+	colorcode=#26E753
+fi
+
+time="$(date +%H):$(date +%M):$(date +%S)"
+date="$(date +%Y).$(date +%m).$(date +%d)"
+
+
+
+export who
+export whom
+export filename
+export text1
+export text2
+export text3
+export text4
+export text5
+export link
+export subtitle
+export colorcode
+export sourcecode
+export time
+export date
+
+[[ -d /var/www/html/memo ]] || sudo mkdir /var/www/html/memo
+
+./write > $filename.html
+
+sudo mv $filename.html /var/www/html/memo/
+
+./reframe > framework.css
+
+sudo mv framework.css /var/www/html/memo/

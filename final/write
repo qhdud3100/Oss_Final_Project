@@ -1,0 +1,48 @@
+#!/bin/bash
+
+echo "<!doctype html>
+<html>
+<head>
+  <title>"$filename"</title>
+  <link href="framework.css" rel="stylesheet">
+</head>
+<body>
+<main>
+<header>
+  <h1>"$filename"</h1>
+  <hr />
+</header>
+<nav>
+  <ul>
+    <li><a href="#view">written</a></li>
+    <li class="dif">&smashp;</li>
+    <li><a href="#demo">$date</a></li>
+    <li class="dif">&smashp;</li>
+    <li><a href="#down">$time</a></li>
+  </ul>
+</nav>
+<div class="background-needed">
+  <h3>to $whom</h3>
+</div>
+<div class="background-needed">
+  <h3>$filename</h3>
+  <p>$text1</p>
+  <p>$text2</p>
+  <p>$text3</p>
+  <p>$text4</p>
+  <p>$text5</p>
+
+
+  <hr />
+     <div class="vid">
+     $sourcecode
+     </div>
+
+</div>
+
+<div class="background-needed">
+  <h3>from $who</h3>
+</div>
+</main>
+</body>
+</html>"
