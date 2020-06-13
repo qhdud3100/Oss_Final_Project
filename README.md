@@ -1,5 +1,8 @@
 # 웹 편지 생성기
 
+## 소개영상
+https://www.youtube.com/watch?v=Z1scrakyKWU
+
 ## What does this project do?
 웹으로 편지를 작성하여 같은 서버를 사용하는 유저에게 이 편지를 보낼 수 있습니다. 
 
