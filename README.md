@@ -8,6 +8,11 @@
 
 ## How do I get started?
 1. /var/www/html 이 아닌 아무 공간에 파일을 clone합니다.
-  git clone https://github.com/boyoung-cpu/Oss_Final_Project.git 
+git clone https://github.com/boyoung-cpu/Oss_Final_Project.git 
+
+2. ./start 로 시작 (또는 export PATH=현재위치:$PATH 로 경로를 추가하여 start로 시작 가능) 
+
+
+3.
 
 ## Where can I get more help, if I need it?
