@@ -1,7 +1,7 @@
 # 웹 편지 생성기
 
 ## 소개영상
-https://www.youtube.com/watch?v=Z1scrakyKWU
+https://www.youtube.com/watch?v=Z1scrakyKWU (40초부터 볼륨이 매우 작아져서 이어폰을 끼고 들으셔야함에 양해를 구하겠습니다.)
 
 ## What does this project do?
 웹으로 편지를 작성하여 같은 서버를 사용하는 유저에게 작성한 편지의 링크를 보낼 수 있습니다. 
