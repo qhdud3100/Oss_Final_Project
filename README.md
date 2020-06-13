@@ -12,6 +12,8 @@ git clone https://github.com/boyoung-cpu/Oss_Final_Project.git
 
 2. ./start 로 시작 (또는 export PATH=현재위치:$PATH 로 경로를 추가하여 start로 시작 가능) 
 
+![image](https://user-images.githubusercontent.com/63991959/84562753-e3af4880-ad91-11ea-8889-10ee55481d23.png)
+
 
 3.
 
