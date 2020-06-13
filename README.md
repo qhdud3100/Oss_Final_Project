@@ -4,7 +4,7 @@
 https://www.youtube.com/watch?v=Z1scrakyKWU
 
 ## What does this project do?
-웹으로 편지를 작성하여 같은 서버를 사용하는 유저에게 이 편지를 보낼 수 있습니다. 
+웹으로 편지를 작성하여 같은 서버를 사용하는 유저에게 작성한 편지의 링크를 보낼 수 있습니다. 
 
 
 
@@ -22,7 +22,7 @@ git clone https://github.com/boyoung-cpu/Oss_Final_Project.git
 
 2. ./start 로 시작 (또는 export PATH=현재위치:$PATH 로 경로를 추가하여 start로 시작 가능) 
 
-3. 다음의 빈칸을 입력합니다.
+3. 다음의 항목에 대하여 입력합니다.
 
 ![image](https://user-images.githubusercontent.com/63991959/84562753-e3af4880-ad91-11ea-8889-10ee55481d23.png)
 
@@ -43,7 +43,7 @@ git clone https://github.com/boyoung-cpu/Oss_Final_Project.git
 ## 참고사항:
 * 간혹 편지지 색상이 적용이 되지 않으면 인터넷 쿠키삭제를 통해 정상적으로 실행시킬 수 있습니다. (처음 1회만 삭제하면됨.)
 * 편지 색상을 바꾸면 모든 편지에 대해서 적용됩니다. 
-* 5문단 내로 입력할 수 있습니다. 
+* (아직은) 5문단 내로 입력할 수 있습니다. 
 * 조만간 한글깨짐 현상을 수정하겠습니다.
 
 
